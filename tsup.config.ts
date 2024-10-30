@@ -5,7 +5,7 @@ import path from "node:path";
 import { type Options, defineConfig } from "tsup";
 
 const common: Options = {
-	entry: ["src/index.ts"],
+	entry: ["src/index.ts", "src/styles.css"],
 	treeshake: false,
 	sourcemap: "inline",
 	minify: true,
@@ -68,7 +68,7 @@ const linkSelf = async () => {
 export default defineConfig({
 	async onSuccess() {
 		// If you want need to add a use statement to files, you can use the following code:
-		// await _addUseStatement('dist/react', 'client');
+		await _addUseStatement("dist", "client");
 
 		await linkSelf();
 	},
