@@ -1,7 +1,7 @@
 {
 	"name": "react-devbar",
 	"description": "A customizable floating toolbar for React applications. Build and integrate your own dev tools with a draggable interface inspired by the Vercel toolbar. Perfect for adding debugging panels, theme controls, and other development utilities to your app.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "Tim Mikeladze <tim.mikeladze@gmail.com>",
 	"license": "MIT",
 	"keywords": ["react", "devbar", "toolbar", "devtools"],
