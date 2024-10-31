@@ -7,10 +7,10 @@ A customizable floating toolbar for React applications. Build and integrate your
 
 ## ✨ Features
 
-✅ Fully customizable, with custom icons, styles, and components.
-✅ Toggle it with a hotkey.
-✅ Drag it anywhere on the screen.
-✅ Use default styles or style it yourself. Seamlessly integrates with Tailwind and supports dark-mode.
+- ✅ Fully customizable, with custom icons, styles, and components.
+- ✅ Toggle it with a hotkey.
+- ✅ Drag it anywhere on the screen.
+- ✅ Use default styles or style it yourself. Seamlessly integrates with Tailwind and supports dark-mode.
 
 
 ## 📡 Install
